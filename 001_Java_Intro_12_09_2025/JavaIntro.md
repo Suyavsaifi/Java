@@ -34,7 +34,7 @@ It was designed to be:
 * **JDK** = JRE + Development utilities
 * **JRE** = JVM + libraries  
 
-![alt text](https://github.com/Suyavsaifi/Java/blob/main/001_Java_Intro_12_09_2025/architecture_of_java.png?raw=true)
+![alt text](https://github.com/Suyavsaifi/Java/blob/main/001_Java_Intro_12_09_2025/images/architecture_of_java.png?raw=true)
 
 -----
 
@@ -42,7 +42,7 @@ It was designed to be:
 
 Java programmers simply write the code, and it runs on the Java Virtual Machine (JVM). 
   
-![alt text](https://github.com/Suyavsaifi/Java/blob/main/001_Java_Intro_12_09_2025/working_of_program.png?raw=true)
+![alt text](https://github.com/Suyavsaifi/Java/blob/main/001_Java_Intro_12_09_2025/images/working_of_program.png?raw=true)
 
 -----
 
@@ -52,7 +52,7 @@ The Java compiler takes a **Java Program (.java)** file and converts it into **b
 
 This created `.class` file is then used as input for the JVM.  
 
-![alt text](https://github.com/Suyavsaifi/Java/blob/main/001_Java_Intro_12_09_2025/Java_compiler.png?raw=true)
+![alt text](https://github.com/Suyavsaifi/Java/blob/main/001_Java_Intro_12_09_2025/images/Java_compiler.png?raw=true)
 
 -----
 
