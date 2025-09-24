@@ -1,4 +1,3 @@
-import javax.swing.plaf.synth.SynthTextAreaUI;
 
 public class NumberDataType {
 //    public static void main(String[] args){
