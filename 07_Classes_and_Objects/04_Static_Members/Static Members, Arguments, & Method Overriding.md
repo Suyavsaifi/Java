@@ -190,4 +190,4 @@ public class Product {
 }
 ```
 
-]**Key Takeaway for Students:** Always check for **semantic equality** by comparing key fields in `equals()`, and ensure `hashCode()` returns a value computed from the **exact same fields**.
+**Key Takeaway for Students:** Always check for **semantic equality** by comparing key fields in `equals()`, and ensure `hashCode()` returns a value computed from the **exact same fields**.
