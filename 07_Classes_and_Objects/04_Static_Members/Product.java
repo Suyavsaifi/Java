@@ -33,4 +33,14 @@ public class Product {
 
         return ((this.id==product.id) && (Objects.equals(this.name, product.name)) && (Objects.equals(this.brand, product.brand)) && (this.make==product.make));
     }
+
+    @Override
+    public int hashCode(){
+        return Objects.hash(id, name, brand, make);
+    }
+
+    @Override
+    public String toString(){
+        return "Product = [ id: " + id + " name: " + name + " brand: " + brand + " make: " + make + " ]";
+    }
 }
