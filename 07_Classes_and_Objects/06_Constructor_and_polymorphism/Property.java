@@ -12,4 +12,8 @@ public class Property {
     public void info(){
         System.out.format("Property (Project: %s, Type: %s and Size: %d)\n", this.projectName, this.propertyType, this.propertySize);
     }
+
+    public static String displayProperty(){
+        return "In property class";
+    }
 }

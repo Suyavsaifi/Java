@@ -15,4 +15,9 @@ public class Commercial extends Property{
             System.out.format("Commercial (Type: %s, Rent: %.2f and Size: %d)\n", this.commercialType, this.rent, this.size);
         }
 
+
+    public static String displayProperty(){
+        return "In Commercial property class";
+    }
+
 }

@@ -13,4 +13,8 @@ public class DomesticProperty extends Property {
         super.info();
         System.out.format("DomesticProperty (Domestic Type: %s, Price: %.2f and Size: %d)\n", this.domesticType, this.Price, this.size);
     }
+
+    public static String displayProperty(){
+        return "In domestic property class class";
+    }
 }
