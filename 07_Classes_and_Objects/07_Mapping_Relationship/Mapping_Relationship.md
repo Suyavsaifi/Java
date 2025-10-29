@@ -9,11 +9,8 @@ This document teaches Java inheritance, method overriding, method hiding (static
 Explanation
 - We use a small property-management example: a base class `Property` and two derived classes `ResidentialProperty` and `CommercialProperty`.
 - The examples show constructors, fields, enums, overriding, `super`, `toString`, and static methods.
-- Copy these classes into a single package `com.skillsoft.inheritanceandinterfaces` and run `Main` to execute.
-
 Code
 ```java
-// package com.skillsoft.inheritanceandinterfaces;
 
 public class Property {
     private String propertyType = "unknown";
@@ -277,36 +274,3 @@ Real-life analogy
   - `private` = locked personal drawer (only the owner can open).
   - `protected` = team-only documents plus team‑leads in other offices (accessible to team or to extensions).
   - package-private = documents visible only to employees in the same office floor.
-
----
-
-### Teaching exercises and checks (quick list)
-
-1. Run overriding demo:
-   - Create derived objects, call overridden method through base-type variable and derived-type variable; confirm runtime dispatch for instance methods.
-2. Static hiding exercise:
-   - Call `Class.staticMethod()` and then `instance.staticMethod()` where `instance`’s *compile-time* type is a base type; observe compile-time binding.
-3. final exercises:
-   - Mark a field `final` and try to set it later; show compile-time error.
-   - Mark a method `final` and attempt override; show error.
-   - Mark class `final` and try to extend; show error.
-4. abstract exercises:
-   - Create abstract base class with stub abstract method; have a derived concrete class implement it; try instantiating abstract class (error).
-5. access modifier checks:
-   - Create two packages and attempt accesses to members with `public`, `private`, `protected`, and package-private; verify rules.
-
----
-
-### Summary (classroom punchlines)
-
-- Overriding: instance-level behavior; dynamic dispatch picks the runtime object's method.
-- `super`: reuse base constructors and methods.
-- Static methods: not overridden; they are hidden and resolved at compile time based on the compile-time type.
-- `final`:
-  - fields: single assignment (init in declaration, constructor, or init block),
-  - methods: cannot be overridden,
-  - classes: cannot be extended.
-- `abstract`: classes or methods signal “incomplete” contracts; subclasses must implement abstract methods unless they themselves are abstract.
-- Access modifiers control visibility: public > protected/package-private > private (with the `protected` nuance across packages).
-
-Use the provided code as lab exercises: change variable types, add/removes modifiers, and ask students to predict results before running the code.
