@@ -179,7 +179,7 @@ Essential steps:
 Complete illustrative implementation (simplified, file-reading and error handling included):
 ```java
 // FileSystemClassLoader.java
-package com.skillsoft.reflection;
+package com.javatutorials.reflection;
 
 import java.io.ByteArrayOutputStream;
 import java.io.FileInputStream;
@@ -227,7 +227,7 @@ public class FileSystemClassLoader extends ClassLoader {
 Using the custom loader and reflection to instantiate loaded classes:
 ```java
 // Main.java (example usage)
-import com.skillsoft.reflection.FileSystemClassLoader;
+import com.javatutorials.reflection.FileSystemClassLoader;
 import java.lang.reflect.InvocationTargetException;
 
 public class Main {
